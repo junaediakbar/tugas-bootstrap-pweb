@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  color: #343a40;
+  background-color: #f8f9fa;
+}
+.container {
+  padding: 9.6rem 11.2rem;
+  max-width: 62rem;
+}
+.card {
+  background-color: #edf2ff;
+}
+.card-header {
+  background-color: #bac8ff;
+  color: #495057;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 0.8rem 2.6rem;
+}
+.card-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.4rem 1.6rem 0 1.6rem;
+}
+.form {
+  padding: 1.2rem 1.6rem;
+}
+.form-control {
+  font-size: 1.8rem;
+}
+.btn {
+  font-size: 1.6rem;
+  width: 8.2rem;
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0.8rem 0rem;
+}
+.btn-form {
+  display: flex;
+  gap: 1.2rem;
+  max-width: 90%;
+  align-items: center;
+}
+.btn-primary {
+  background-color: #364fc7;
+}
+.btn-primary:hover {
+  background-color: #1971c2;
+}
+.btn-secondary {
+  background-color: #20c997;
+  /* border: 1px solid #099268; */
+}
+.btn-secondary:hover {
+  background-color: #099268;
+}
